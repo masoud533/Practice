@@ -10,6 +10,3 @@ def GCM(X, y):
             ly.append(i)
     res = np.unique([j for j in lX + ly if j  in lX and j in ly])
     return res.max()
-
-
-print(GCM(10, 200))

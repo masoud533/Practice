@@ -11,5 +11,3 @@ def lcm(X, y):
         return res.min()
     else:
         return 'Please enter a smaller number'
-
-print(lcm(13, 10000))
