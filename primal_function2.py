@@ -9,7 +9,6 @@ def number(n):
         if is_primal(i):
             primalList.append(i)
     return f'Between 1 and {n} prime numbers are: {primalList}'
-
 while True:
     try:
         num = int(input('enter your number: '))
