@@ -7,4 +7,4 @@ def shift(l: list = [0,1,2,3,4],i: int =2, x: str = 'Right') -> list:
         return l[i::] + l[:i:]
     else:
         return 'ops! something went wrong, please try again'
-print(shift(x='rr', i=1))
+print(shift(x='r', i=1))
