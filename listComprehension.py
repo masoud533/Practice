@@ -4,4 +4,3 @@ print(list2)
 
 s = "MaSoUD"
 l = [X.upper() for X in s if X.lower() in "saeed"]
-print(l)
