@@ -9,4 +9,4 @@ def GCM(X, y):
         if y % i == 0:
             ly.append(i)
     res = np.unique([j for j in lX + ly if j  in lX and j in ly])
-    return res.max()
+    return res.max()  
