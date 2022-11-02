@@ -20,4 +20,4 @@ def compare(X, y):
             return 'Both strings are empty!' 
 
 
-print(compare('nima', 'amin'))
+print(compare('nima', 'amin')) 
