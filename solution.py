@@ -1,3 +1,6 @@
+from signal import SIGCLD
+
+
 def compare(X, y):
     string1 = X
     string2 = y
@@ -20,4 +23,6 @@ def compare(X, y):
             return 'Both strings are empty!' 
 
 
-print(compare('nima', 'amin')) 
+print(compare('nima', 'amin'))
+
+
