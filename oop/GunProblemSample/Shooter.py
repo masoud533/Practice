@@ -13,7 +13,15 @@ class Shooter:
 
 
     def add_bullet_of_given_size_to_gun(self, size: float, count: int) -> None:
-        pass
+        Bullets = {
+            'A': {"size":0.5, "dmage":1, "count":10},
+            'B': {"size":1, "dmage":1.5, "count":10},
+            'C': {"size":3, "dmage":3, "count":10},
+            'D': {"size":4, "dmage":2, "count":10}
+
+
+
+        }
 
     def shoot_to_target(self, target_x: int,  target_y: int,  target_distance: int,  aim_x: int,  aim_y: int) -> float:
         pass
