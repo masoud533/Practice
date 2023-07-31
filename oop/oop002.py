@@ -8,6 +8,9 @@ class User:
         self._email = "mr.masoud_mapar@outlook.com"
         self._password = "123"
         self.__message = "I love my Car"
+
+    def __sayHello__(self):
+        print(f"Hello {self.userName}")
     
     def login(self, gotPassword):
         if self._password == gotPassword:
@@ -19,5 +22,6 @@ class User:
 me = User('masoud')
 
 print(me.userName)
+me.__sayHello__()
 print(me._email)
-#print(me.__message) --> rase error
+#print(me.__message) --> error return
