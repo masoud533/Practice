@@ -33,10 +33,7 @@ class Shooter:
             self.selectedBullet = Bullets[size]
             Bullets[size]["count"] -= Bullets[size]["count"] - count 
     def shoot_to_target(self, target_x: int,  target_y: int,  target_distance: int,  aim_x: int,  aim_y: int) -> float:
-        pass
-
-
-Submachine = Shooter()
-
-Submachine.set_gun_by_name('Submachine Gun')
-Submachine.add_bullet_of_given_size_to_gun(0.5, 5)
+        if self.selectedGun['range'] < target_distance:
+            return 0
+        else:
+           return self.selectedGun["power"] * self.selectedBullet["dmage"]
