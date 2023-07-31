@@ -6,6 +6,8 @@ class User:
     def __init__(self,username: str) -> None:
         self.userName = username
         self._email = "mr.masoud_mapar@outlook.com"
+        self._password = "123"
+        self.__message = "I love my Car"
     
     def login(self, gotPassword):
         if self._password == gotPassword:
@@ -18,3 +20,4 @@ me = User('masoud')
 
 print(me.userName)
 print(me._email)
+#print(me.__message) --> rase error
