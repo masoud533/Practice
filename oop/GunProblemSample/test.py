@@ -1,0 +1,1 @@
+print('Submachine Gun' == "Submachine Gun")
